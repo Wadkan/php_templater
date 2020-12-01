@@ -12,8 +12,15 @@ class Templeton
 
     public function run(string $templateName, array $templateVariables): string
     {
-        $temp_full_path = __DIR__ . '/' . $this->folder_path . '/' . $templateName;
-        return readfile($temp_full_path);
+        $file = __DIR__ . '/' . $this->folder_path . '/' . $templateName;
+
+        $template = file_get_contents($file);
+
+        foreach ($templateVariables as $key => $value) {
+            $template = str_replace('{{ ' . $key . ' }}', $value, $template);
+        }
+
+        return $template;
 
     }
 
