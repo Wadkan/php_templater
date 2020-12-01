@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606841737484</updated>
-      <workItem from="1606841738600" duration="1922000" />
+      <workItem from="1606841738600" duration="2226000" />
     </task>
     <servers />
   </component>
@@ -79,6 +79,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="-806" key="#com.intellij.ide.util.MemberChooser" timestamp="1606843960196">
+      <screen x="-220" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="553" y="-806" key="#com.intellij.ide.util.MemberChooser/-220.-1057.1920.1057/0.23.1394.877@-220.-1057.1920.1057" timestamp="1606843960196" />
     <state x="400" y="-796" key="NewPhpClassDialog" timestamp="1606841933914">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
